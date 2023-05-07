@@ -1,5 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
-import prince from "./images/prince.JPG";
 import lumiel from "./images/lumiel.jpg";
 
 export default function Home() {
