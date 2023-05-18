@@ -2,6 +2,7 @@
 import Image from "next/image";
 import lumiel from "./images/lumiel.jpg";
 import texas from "./images/texas.png";
+import Form from './components/form.js'
 
 export default function Home() {
   return (
@@ -44,22 +45,11 @@ export default function Home() {
       </section>
       <section id="#contact">
         <h2>contact!</h2>
-        <h4>Thanks for stopping by my portfolio! If you're interested in working together, feel free to contact me through the form below or connect with me on Gmail at <a href={`mailto:${"KobySWork@gmail.com"}`}>KobySWork@gmail.com</a>.</h4>
-        <form>
-          <div className="flex flex-col">
-            <label htmlFor="name">Name</label>
-            <input type="text" name="name" id="name" />
-          </div>
-          <div className="flex flex-col">
-            <label htmlFor="email">Email</label>
-            <input type="email" name="email" id="email" />
-          </div>
-          <div className="flex flex-col">
-            <label htmlFor="message">Message</label>
-            <textarea name="message" id="message" cols="30" rows="10"></textarea>
-          </div>
-          <button type="submit">Submit</button>
-        </form>
+        <h4>Thanks for stopping by my portfolio! If you're interested in working together, feel free to contact me through the form 
+          below or connect with me on Gmail at <a href={`mailto:${"KSillitoWork@gmail.com"}`}>KSillitoWork@gmail.com</a>.</h4>
+      </section>
+      <section>
+        <Form />
       </section>
     </main>
   );
