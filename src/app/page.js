@@ -48,7 +48,7 @@ export default function Home() {
         <h4>Thanks for stopping by my portfolio! If you're interested in working together, feel free to contact me through the form 
           below or connect with me on Gmail at <a href={`mailto:${"KSillitoWork@gmail.com"}`}>KSillitoWork@gmail.com</a>.</h4>
       </section>
-      <section>
+      <section id="#form">
         <Form />
       </section>
     </main>
