@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Texas from "./images/texas.png";
+import Texas from "../images/texas.png";
 
 export default function About() {
   return (
