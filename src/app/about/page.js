@@ -1,10 +1,12 @@
 import Image from "next/image";
 import Texas from "../images/texas.png";
+import Navbar from "../components/navbar.js";
 
 export default function About() {
   return (
     <section id="#about" className="">
-      <div className="mb-32 grid text-center text-base justify-items-center">
+      <Navbar />
+      <div className="flex min-h-screen flex-col items-center p-24 bg-slate-900">
         <h2 className="text-3xl justify-items-start">About me!</h2>
         <p className="w-72 pb-10 text-neutral-400">
           I am a full stack web developer with a passion for making webpages and
