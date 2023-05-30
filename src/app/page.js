@@ -30,6 +30,10 @@ export default function Home() {
               width={300}
               height={300}
             />
+            <p className="w-72 py-4 text-base text-neutral-400">
+              I am a full stack web developer with a passion for making webpages
+              and learning new things.
+            </p>
           </div>
           {/* Socials */}
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
