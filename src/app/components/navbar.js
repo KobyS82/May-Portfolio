@@ -18,13 +18,13 @@ const Navbar = () => {
         </Link>
         <Link
           className="px-3 py-2 rounded items-center hover:text-white hover:font-bold hover:underline hover:underline-offset-auto"
-          href="#work"
+          href="/work"
         >
           Work
         </Link>
         <Link
           className="px-3 py-2 rounded items-center hover:text-white hover:font-bold hover:underline hover:underline-offset-auto"
-          href="#contact"
+          href="/contact"
         >
           Contact
         </Link>

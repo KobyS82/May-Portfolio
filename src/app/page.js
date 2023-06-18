@@ -11,10 +11,12 @@ import {
   AiFillFileText,
   FiMapPin,
 } from "react-icons/ai";
+// import Carousel from "./components/carousel.js";
 
 export default function Home() {
   return (
     <main>
+      {/* <Carousel /> */}
       <Navbar />
       <div className="flex min-h-screen flex-col items-center p-24 bg-slate-900">
         <section id="#top" className="justify-between">
