@@ -2,9 +2,9 @@ import Image from "next/image";
 import Navbar from "../components/navbar.js";
 import Wanderlust from "../images/wanderlust3.png";
 import Character from "../images/character.png";
-import Jate from "../images/jatePic.JPG";
-import Pong from "../images/pong-remake.JPG";
-import Platformer from "../images/platformer.JPG";
+import Jate from "../images/jatePic.jpg";
+import Pong from "../images/pong-remake.jpg";
+import Platformer from "../images/platformer.jpg";
 import {
   AiFillGithub,
   AiOutlineSelect,
