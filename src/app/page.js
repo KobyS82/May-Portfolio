@@ -11,14 +11,16 @@ import {
   AiFillFileText,
   FiMapPin,
 } from "react-icons/ai";
+// import Carousel from "./components/carousel.js";
 
 export default function Home() {
   return (
     <main>
+      {/* <Carousel /> */}
       <Navbar />
       <div className="flex min-h-screen flex-col items-center p-24 bg-slate-900">
         <section id="#top" className="justify-between">
-          <div className="mb-12 flex-column text-center text-3xl w-full items-center ">
+          <div className="mb-12 flex-column text-center text-3xl w-max items-center ">
             <div className="font-mono">Hello! My name is</div>
             <div className="font-anton font-bold rounded-xl w-3/4 p-2 justify-center bg-slate-600">
               Koby Sillito
@@ -30,6 +32,10 @@ export default function Home() {
               width={300}
               height={300}
             />
+            <p className="w-72 py-4 text-base text-neutral-400">
+              I am a full stack web developer with a passion for making webpages
+              and learning new things.
+            </p>
           </div>
           {/* Socials */}
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
@@ -46,25 +52,6 @@ export default function Home() {
               <AiFillFileText className="hover:text-pink-400" />
             </a>
           </div>
-        </section>
-
-        <section id="#work">
-          <h2>work!</h2>
-        </section>
-        <section id="#contact">
-          <h2>contact!</h2>
-          <h4>
-            Thanks for stopping by my portfolio! If you're interested in working
-            together, feel free to contact me through the form below or connect
-            with me on Gmail at{" "}
-            <a href={`mailto:${"KSillitoWork@gmail.com"}`}>
-              KSillitoWork@gmail.com
-            </a>
-            .
-          </h4>
-        </section>
-        <section id="#form">
-          <Form />
         </section>
       </div>
     </main>
