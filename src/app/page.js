@@ -18,7 +18,7 @@ export default function Home() {
     <main>
       {/* <Carousel /> */}
       <Navbar />
-      <div className="flex min-h-screen flex-col items-center p-24 bg-slate-900">
+      <div className="flex h-screen flex-col items-center overflow-hidden px-24 pt-10  bg-slate-900">
         <section id="#top" className="justify-between">
           <div className="mb-12 flex-column text-center text-3xl w-max items-center ">
             <div className="font-mono">Hello! My name is</div>
