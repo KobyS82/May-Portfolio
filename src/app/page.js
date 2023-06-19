@@ -1,8 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import Navbar from "./components/navbar.js";
-import Profile from "./images/Profile.jpg";
-import Lumiel from "./images/lumiel.jpg";
+import Profile from "./images/profile.png";
+import Lumiel from "./images/lumiel.png";
 import Texas from "./images/texas.png";
 import Form from "./components/form.js";
 import {
