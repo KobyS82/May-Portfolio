@@ -38,7 +38,7 @@ export default function About() {
         </div>
 
         <div>
-          <h2 className="text-3xl">Hobbies</h2>
+          <h2 className="text-3xl pt-4">Hobbies</h2>
           <p className="w-72 py-4 text-base justify-center text-neutral-400">
             I have a wide range of hobbies that I enjoy doing in my free time. I
             love to play video games, watch anime, and play board games. I also

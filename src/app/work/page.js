@@ -20,7 +20,7 @@ export default function Work() {
         {/* grid grid-cols-3 */}
         <div className="flex justify-evenly flex-wrap w-full">
           {/* Wanderlust */}
-          <div className="bg-slate-900 w-[500px] m-2 p-2 border-2 rounded-lg shadow-2xl shadow-black border-black">
+          <div className="bg-slate-900 w-[500px] m-2 p-2 border-2 rounded-lg shadow-xl shadow-black border-black">
             <Image
               className="p-3"
               src={Wanderlust}
@@ -38,7 +38,7 @@ export default function Work() {
             </div>
           </div>
           {/* Character Generator */}
-          <div className="bg-slate-900 w-[500px] m-2 p-2 border-2 rounded-lg shadow-2xl shadow-black border-black">
+          <div className="bg-slate-900 w-[500px] m-2 p-2 border-2 rounded-lg shadow-xl shadow-black border-black">
             <Image
               className="p-3"
               src={Character}
@@ -56,7 +56,7 @@ export default function Work() {
             </div>
           </div>
           {/* Pong */}
-          <div className="bg-slate-900 w-[500px] m-2 p-2 border-2 rounded-lg shadow-2xl shadow-black border-black">
+          <div className="bg-slate-900 w-[500px] m-2 p-2 border-2 rounded-lg shadow-xl shadow-black border-black">
             <Image
               className="p-3"
               src={Pong}
@@ -74,7 +74,7 @@ export default function Work() {
             </div>
           </div>
           {/* Platformer */}
-          <div className="bg-slate-900 w-[500px] m-2 p-2 border-2 rounded-lg shadow-2xl shadow-black border-black">
+          <div className="bg-slate-900 w-[500px] m-2 p-2 border-2 rounded-lg shadow-xl shadow-black border-black">
             <Image
               className="p-3"
               src={Platformer}
@@ -89,7 +89,7 @@ export default function Work() {
             </div>
           </div>
           {/* Jate */}
-          <div className="bg-slate-900 w-[500px] m-2 p-2 border-2 rounded-lg shadow-2xl shadow-black border-black">
+          <div className="bg-slate-900 w-[500px] m-2 p-2 border-2 rounded-lg shadow-xl shadow-black border-black">
             <Image
               className="p-3"
               src={Jate}
